@@ -2,6 +2,8 @@
 {
 	margin: 0;
 	padding: 0;
+	list-style: none;
+	text-decoration: none;
 }
 
 header
@@ -114,9 +116,9 @@ h1
 	width: 100vw;
 	display: block;
 	overflow: hidden;
-	padding: 70px 0;
 	box-sizing: border-box;
 	background-color: #18181a;
+	height: 100px;
 }
 
 .inner_footer{
@@ -127,13 +129,13 @@ h1
 }
 
 .inner_footer .logo_container{
-	width: 35%;
+	width: 100px;
 	float: left;
 	height: 100%;
 	display: block;
 }
 .inner_footer .logo_container img{
-	width: 60px;
+	width: 65px;
 	height: auto;
 }
 
@@ -154,5 +156,4 @@ h1
 	color: white;
 	display: block;
 	width: 100%;
-	margin-bottom: 20px;
 }
